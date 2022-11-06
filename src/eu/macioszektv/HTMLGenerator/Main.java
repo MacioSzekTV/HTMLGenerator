@@ -15,7 +15,7 @@ public class Main {
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("Podaj treść strony:");
         String trescstrony;
-        trescstrony = scanner.nextLine();
+        trescstrony = scanner1.nextLine();
 
         try {
             fileOutput = new PrintWriter(nameOutput + ".html");
