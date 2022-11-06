@@ -27,6 +27,8 @@ public class Main {
             fileOutput.println("</html>");
             System.out.println("Strona jest w przygotowaniu!");
             fileOutput.close();
+            scanner.close();
+            scanner1.close();
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
